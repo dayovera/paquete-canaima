@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "gpl.xml">
+<!ENTITY appversion "0.52">
+<!ENTITY app "<application>Canaima-Notas</application>">
+<!ENTITY manrevision "0.1">
+<!ENTITY date "2012">
+]>
+<!-- =============Document============================= -->
+<article id="index" lang="es">
+
+<articleinfo> 
+<title>Manual del Documentador de Fallas</title>       
+<copyright> 
+	<year>2012</year> 
+	<holder>Carlos Espinoza</holder> 
+</copyright>
+
+<authorgroup> 
+	<author> 
+		<firstname>Carlos Espinoza</firstname>
+		
+	</author>
+
+</authorgroup>
+
+<releaseinfo>
+	Este manual describe los pasos de Canaima-Semilla-Gui.
+</releaseinfo> 
+
+<legalnotice>
+	<title>
+		Aviso legal
+	</title>	
+	<para> 
+		Este documento se distribuye bajo los términos de la
+	Licencia Pública General GNU tal como la publica la Free
+	Software Foundation; en la versión 3 de la Licencia, o (a su
+	elección) cualquier versión posterior. Puede encontrar una
+	copia de esta licencia en este manual o en el archivo incluido con el
+	código fuente de este programa.
+	</para>
+</legalnotice>
+
+<legalnotice> 
+	<title>
+		Retroalimentación
+	</title>
+	<para>
+		Para informar de un fallo o hacer cualquier sugerencia
+		concerniente al Documentador de Fallas o este manual, envié un correo a la siguiente dirección <email>desarrolladores@canaima.softwarelibre.gob.ve</email>.
+	</para>
+	
+
+</legalnotice> 
+</articleinfo> 
+
+<indexterm zone="index"> 
+	<primary>Canaima Notas</primary> 
+</indexterm> 
+<indexterm zone="index"> 
+	<primary>Paquetes</primary>
+</indexterm>
+<indexterm zone="index"> 
+	<primary>Software</primary>
+</indexterm>
+
+<sect1 id="c-s-introduction"> 
+	<title>
+		Introducción
+	</title> 
+	<para>
+		El Documentador de Fallas es una herramienta para facilita el envió de información a la plataforma de Canaima GNU/Linux, referente a cualquier tema en particular.
+	</para>
+	<para>
+		Canaima Notas es paquete diseñado para individuales, colectivos e instituciones que permite enviar texto a la plataforma Canaima, de forma tal que sirva como referencia a cualquiera que quiera ayudar con un tema en particular.
+	</para>
+	<para>
+		Utilizando comandos especializados de GNU/Linux el usuario en el cuadro 'Documentar Falla' podrá escribir su percepción del problema. El cuadro 'Selecciones datos a enviar' son una serie de comandos predefinidos, que diagnosticaran el sistema dependiendo de la categoría en que se encuentre como 'Dispositivos', 'Información del Sistema' o 'Kernel'. Luego envía todos estos datos a la plataforma de <ulink url="http://notas.canaima.softwarelibre.gob.ve/">http://notas.canaima.softwarelibre.gob.ve/</ulink> o si lo desea podrá ver el documento que el sistema genera.
+	</para>
+
+</sect1>
+
+	
+
+<sect1 id="c-s-construir"> 
+	<title>Enviar Nota de Falla</title> 
+	
+	<para>
+		Canaima Notas genera un Documento el cual es enviado a la plataforma o si lo prefiere podrá ver el documento en el sistema. Para poder crear una Nota debe llenar todos los datos siguientes: 
+	</para>
+
+	<para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Titulo: en este campo se escribe el titulo correspondiste al problema que preste.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Autor: el nombre de la persona que envía la Nota.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Correo Electrónico: el correo de la persona que envía la nota, de esta forma podrá obtener respuesta de los Técnicos de la comunidad Canaima.   
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Documentar Falla: aquí podrá escribir toda la problemática que presente el sistema opertivo, detallando su problema en especifico.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Selección Datos a Envías. En este campo tendrá tres pestañas las cuales deberá seleccionar  todas las que crea concerniente a la problemática que presente : 
+			
+				<itemizedlist>
+					<listitem>
+						<para>
+							Dispositivos : PCI, USB, RAM/SWAP/buffers, Espacio Disco, CPU y Tarjeta Madre.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							información del Sistema: Aclaración Gráfica,  Servidor Pantalla, Repositorios, Tabla de partición, Prioridad APT y Interfaces de RED
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Kernel: Versión y Modulo. 
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			
+		</listitem>
+		
+		<listitem>
+			<para>
+				Luego de llenar todo los datos podrá enviar la información a la plataforma, haciendo click en el botón Aceptar.   
+
+			</para>
+		</listitem>
+
+	</orderedlist>
+	
+	</para>
+	
+	<para>	
+		Para poder ver la información enviada solo debe entrar en la  dirección <ulink url="http://notas.canaima.softwarelibre.gob.ve/">http://notas.canaima.softwarelibre.gob.ve/</ulink>
+	</para>
+
+	<caution>
+		<para>
+			Es importante tener en cuenta que, si no posee una conexión a internet no podrá enviar la nota a la plataforma de Canaima.
+		</para>
+
+	</caution>
+	<note>
+		<para>
+			Si desea ver la nota en su sistema solo debe presionar el boton "Ver Documento (No enviar)"
+		</para>
+	</note>
+</sect1>
+
+<sect1 id="c-s-accesibilidad"> 
+	<title>Accesibilidad</title> 
+	
+	<para>
+		Canaima Notas genera un Documento el cual es enviado a la plataforma o si lo prefiere podrás escuchar el documento en el sistema. Para poder crear una Nota debe llenar todos los datos siguientes: 
+	</para>
+	
+	<note>
+		<para>
+			Para pasar entre los campo en la aplicación debe usar Tabulación o Tabulación + Control  
+		</para>
+	</note>
+	
+	<para>
+	<orderedlist>
+		<listitem>
+			<para>
+				Titulo: en este campo se escribe el titulo correspondiste al problema que preste.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Autor: el nombre de la persona que envía la Nota.
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Correo Electrónico: el correo de la persona que envía la nota, de esta forma podrá obtener respuesta de los Técnicos de la comunidad Canaima.   
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Documentar Falla: aquí podrá escribir toda la problemática que presente el sistema opertivo, detallando su problema en especifico.
+				<note>
+					<para>
+						Para pasar al siguiente campo en la aplicación debe usar Tabulación + Control  
+					</para>
+				</note>
+			</para>
+		</listitem>
+		<listitem>
+			<para>
+				Selección Datos a Envías. En este campo tendrá tres pestañas las cuales deberá seleccionar  todas las que crea concerniente a la problemática que presente : 
+				<note>
+					<para>
+						Para pasar entre los campos de Dispositivo, información y kernel debe usar las flechas direcionales. Para salir del campo y pasar al siguiente 
+						Control + Tabulación  
+					</para>
+				</note>
+				<itemizedlist>
+					<listitem>
+						<para>
+							Dispositivos : PCI, USB, RAM/SWAP/buffers, Espacio Disco, CPU y Tarjeta Madre.
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							información del Sistema: Aclaración Gráfica,  Servidor Pantalla, Repositorios, Tabla de partición, Prioridad APT y Interfaces de RED
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							Kernel: Versión y Modulo. 
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+			
+		</listitem>
+		
+		<listitem>
+			<para>
+				Luego de llenar todo los datos podrá enviar la información a la plataforma, haciendo click en el botón Aceptar.   
+
+			</para>
+		</listitem>
+
+	</orderedlist>
+	
+	</para>
+	
+	<para>	
+		Para poder ver la información enviada solo debe entrar en la  dirección <ulink url="http://notas.canaima.softwarelibre.gob.ve/">http://notas.canaima.softwarelibre.gob.ve/</ulink>
+	</para>
+
+	<caution>
+		<para>
+			Es importante tener en cuenta que, si no posee una conexión a internet no podrá enviar la nota a la plataforma de Canaima.
+		</para>
+
+	</caution>
+	<note>
+		<para>
+			Si desea ver la nota en su sistema solo debe presionar el boton "Ver Documento (No enviar)"
+		</para>
+	</note>
+
+</sect1>
+
+
+<sect1 id="myapp-about"> 
+	<title>
+		Acerca de &app;
+	</title> 
+	<para> 
+			&app; Escrito originalmente por El equipo de Desarrollo de Canaima GNU Linux .
+	</para>
+		
+	<para> 
+		Los desarrolladores que han participado en la construcción del paquete son:		
+
+		 <itemizedlist>
+		        <listitem>
+			        <para>
+				       Diego Aguilera <email>diegoaguilera85@gmail.com</email>
+	                        </para>
+		        </listitem>
+			<listitem>
+				<para>
+					Carlos Guerrero <email>guerrerocarlos@gmail.com</email>
+	                        </para>
+		        </listitem>
+			<listitem>
+				<para>
+	                              Francisco Vazques <email>franjvasquezg@gmail.com</email>
+		                </para>
+	                </listitem>
+		        <listitem>
+			        <para>
+				        Luis Martinez <email>martinez.faneyth@gmail.com</email>
+	                        </para>
+		        </listitem>
+			<listitem>
+				<para>
+					Wil Alvarez <email>wil.alejandro@gmail.com</email>
+	                        </para>
+	                </listitem>
+			<listitem>
+				<para>
+					Carlos Espinoza <email>carlosarmikhael@gmail.com</email>
+	                        </para>
+	                </listitem>
+		
+		</itemizedlist>
+	
+			
+	</para>
+	<para>
+		Para informar de un fallo o hacer una sugerencia
+		concerniente a &app; 
+		o a este manual, ingrese al sitio web <ulink url="http://canaima.softwarelibre.gob.ve">http://canaima.softwarelibre.gob.ve</ulink>, <ulink url="http://notas.canaima.softwarelibre.gob.ve/">http://notas.canaima.softwarelibre.gob.ve/</ulink>, o 			contacte a través del correo <email>desarrolladores@canaima.softwarelibre.gob.ve</email>.
+	</para>
+	<para> 
+		Este programa se distribuye bajo los términos de la
+		Licencia Pública General GNU.
+	</para>
+</sect1> 
+
+
+</article>

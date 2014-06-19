@@ -1,0 +1,26 @@
+Source: canaima-notas-gnome
+Section: misc
+Priority: optional
+Maintainer: Carlos Espinoza <carlosarmikhael@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+Homepage:  http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-notas-gnome.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-notas-gnome/trees/master
+
+Package: canaima-notas-gnome
+Architecture: all
+Depends: 	python,
+		python-gtk2, 
+		python-gobject, 
+		${shlibs:Depends}, 
+		${misc:Depends}
+Description: Cliente plataforma http://notas.canaima.softwarelibre.gob.ve
+ A través de Canaima Notas puedes enviar texto a la
+ plataforma Canaima, de forma tal que sirva como referencia
+ a cualquiera que quiera ayudarte con un tema en particular,
+ incluyendo problemas de hardware y/o software en Canaima
+ GNU/Linux.
+ .
+ Opcionalmente puedes elegir varios datos a incluir en la nota, 
+ como por ejemplo: Tarjeta gráfica, Kernel, entre otros.

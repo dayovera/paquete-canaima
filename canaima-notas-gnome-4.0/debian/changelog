@@ -1,0 +1,444 @@
+canaima-notas-gnome (4.0-13) stable; urgency=low
+
+  * [6e3044f] Comando lspci -nn , Todos los CheckButton True
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 29 Oct 2013 11:15:59 -0430
+
+canaima-notas-gnome (4.0-12) stable; urgency=low
+
+  * [d39e2cc] Agregando dirección de .mo al note.py
+  * [71cd3af] conectando label con entry para hacerlos accesibles
+  * [2832e06] quitando imagen del captcha
+  * [3d6ce25] Agrangando manual de accesibilidad a ayuda y ruta del mod_accesible al makefile
+  * [0afa322] generando nueva versión para 4.0
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 01 Jul 2013 15:44:52 -0430
+
+canaima-notas-gnome (4.0-11) stable; urgency=low
+
+  * [ce6cd84] empaquetado .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 17:28:48 -0430
+
+canaima-notas-gnome (4.0-10) stable; urgency=low
+
+  * [67157de] empaquetado .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 17:27:19 -0430
+
+canaima-notas-gnome (4.0-9) stable; urgency=low
+
+  * [a191553] empaquetado .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 17:27:04 -0430
+
+canaima-notas-gnome (4.0-8) stable; urgency=low
+
+  * [75cd0e4] empaquetado .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 17:25:49 -0430
+
+canaima-notas-gnome (4.0-7) stable; urgency=low
+
+  * [76fbd4e] modificando makefile
+  * [b0612c2] syntax error makefile
+  * [27f36e3] empaquetado .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 17:14:29 -0430
+
+canaima-notas-gnome (4.0-6) stable; urgency=low
+
+  * [6769233] Agregando creación de carpeta dentro del for
+  * [879921a] generando .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 16:49:56 -0430
+
+canaima-notas-gnome (4.0-5) stable; urgency=low
+
+  * [55befd1] Quitando linea de .mo en makefile
+  * [6e24951] verificando generación del .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 16:38:52 -0430
+
+canaima-notas-gnome (4.0-4) stable; urgency=low
+
+  * [33ec554] Agrando Traducciones al Canaima-notas-gnome
+  * [51fcb92] Agregando Función gen-mon al makefile para crear .mo
+  * [c90841a] carpeta pot
+  * [45c43bf] Agregando for al makefile para copiar .mo
+  * [bdeec96] Agrengando al makefile ruta de .mo
+  * [234b5be] verificando generación del .mo
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Tue, 25 Jun 2013 16:36:55 -0430
+
+canaima-notas-gnome (4.0-3) stable; urgency=low
+
+  [ Erick Birbe ]
+  * [0d7fad5] Añadiendo copyright al código python
+  * [a5a87f9] Convirtiendo todas las tabulaciones a espacios.
+    Existia una mezcla entre tabulaciones y espacios para hacer las
+    identaciones. Se ha procedido a convertir todas las tabulaciones a
+    espacios.
+  * [1f5e8f1] Eliminados del codigo fuente comentarios innecesarios
+  * [125731f] Moviendo el script .py a una carpeta superior.
+    Necesario para trabajar con las rutas relativas en los nombres de
+    archivos.
+  * [b98765e] Eliminando imágenen en PNG.
+    Los formatos binarios de imágen en PNG deben ser generados con el
+    comando 'make gen-img' ya que los mismos agregan peso innecesario al
+    repositorio git.
+  * [d9f82e7] Agregando archivo .gitignore
+    ignorando principalmente archivos .png y .pyc
+  * [b24aa73] Cambiando nombre del módulo para cumplir con las normas de python.
+    Los nombres de módulos de python no deben poseer giones.
+  * [36e153e] Limpiando la estructura del código
+  * [ddeb443] Limpiando la estructura del código.
+    Continuando con la reestructuración del codigo fuente, principalmente
+    eliminado todo el bloque de validación que consistia de muchis if's
+    anidados. Escribiendo archivo y subiendo la nota.
+  * [c9b686c] Colocando un capcha de menos letras.
+
+  [ Carlos Espinoza ]
+  * [8a1980f] cambiando tamaño del cuadro de descripción
+  * [8291b5d] prueba de empaquetado cambiando rutas de archivos
+  * [08701a9] colocando nuevas rutas de archivos en el makefile
+  * [a64cb74] cambiando ruta del enlace en makefile
+  * [9ce63ff] locando nombre correcto del archivo en el makefile
+  * [d9111d3] -Agregando función message_info common.py -Modifiando línea de correo en note.py para que salga en la plataforma Notas -Agregando mensage_info, Recargar captcha = Error , llamar a función append_defaults() canaima_notas_gnome.py
+  * [01f53e1] Removiendo paquete trancisional canaima-notas.
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Thu, 13 Jun 2013 15:21:00 -0430
+
+canaima-notas-gnome (4.0-2) stable; urgency=low
+
+  * [50d4b01] Tamaño botón aceptar – label validar – textbuffer
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 28 Jan 2013 10:12:18 -0430
+
+canaima-notas-gnome (4.0-1) stable; urgency=low
+
+  * Incrementando el numero de la version. 
+  * [6441cc7] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: Makefile canaima-notas-gnome.debhelper.log
+    banner-app-top.png canaima-notas-icons.png canaima-notas-gnome.py
+    canaima-notas-gnome.sh canaima-notas.debhelper.log banner-app-
+    top.png canaima-notas-icons.png
+  * [e2adaca] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos:
+  * [6fda700] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: Makefile canaima-notas-gnome.debhelper.log
+    canaima-notas-gnome.desktop banner-app-top.png canaima-notas-
+    icons.png canaima-notas-gnome.py canaima-notas-gnome.sh canaima-
+    notas.debhelper.log
+  * [3aa288d] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos:
+  * [6b3ce81] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: canaima-notas-gnome.desktop
+  * [41955eb] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: canaima-notas-gnome.desktop canaima-notas-
+    gnome.py
+  * [9212daa] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: Makefile canaima-notas-gnome
+  * [14acd82] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: canaima-notas-gnome.desktop
+  * [adffc87] Cambiando acceso directo de la aplicación. Modificando
+    rutas de imágenes e iconos. Modificando letra del captcha.
+  * [cd99467] modificando ruta de icons y acceso directo
+  * [e552083] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: Makefile
+  * [64a2f64] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: Makefile
+  * [1f181b0] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: canaima-notas-gnome.py
+  * [82e095e] Borrando linea del makefile. /usr/bin/
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Fri, 25 Jan 2013 14:49:14 -0430
+
+canaima-notas-gnome (3.1-9) stable; urgency=low
+
+  * [23b9b00] corriendo omisión
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Wed, 08 Feb 2012 16:43:00 -0430
+
+canaima-notas-gnome (3.1-8) stable; urgency=low
+
+  * [a0cdf0f] corrección Advertencias
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 31 Jan 2012 11:32:39 -0430
+
+canaima-notas-gnome (3.1-7) stable; urgency=low
+
+  * [f392f92] desencadenando dependencia con canaima estilo visual
+
+ -- Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>  Tue, 31 Jan 2012 09:35:50 -0430
+
+canaima-notas-gnome (3.1-6) stable; urgency=low
+
+  * [7255d3f] Agregando paquetes transicionales para facilitar la
+    migración de Canaima 3.0 -> Canaima 3.1
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 23:08:27 -0430
+
+canaima-notas-gnome (3.1-5) stable; urgency=low
+
+  * [33e9ecd] Utilizando formato de fuentes 3.0 (quilt)
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 16:52:06 -0430
+
+canaima-notas-gnome (3.1-4) stable; urgency=low
+
+  * [2b5d71c] Agregando Provides, Conflicts y Replaces para activar
+    reemplazo automático de canaima-notas
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 13:37:39 -0430
+
+canaima-notas-gnome (3.1-3) stable; urgency=low
+
+  * [eafc255] Corrigiendo errores de lintian.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 17:19:30 -0430
+
+canaima-notas-gnome (3.1-2) stable; urgency=low
+
+  * [1599ad1] Agregando Conflicts y Replaces con canaima-notas.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 17:10:06 -0430
+
+canaima-notas-gnome (3.1-1) stable; urgency=low
+
+  * Limpiando fuentes para la versión 3.1 de Canaima Popular.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 16:12:57 -0430
+
+canaima-notas (1.0+25) unstable; urgency=low
+
+  * [75a610f] corregido ayuda
+
+ -- Francisco Vasquez Guerrero <fvasquez@cnti.gob.ve>  Fri, 29 Apr 2011 11:37:25 -0430
+
+canaima-notas (1.0+24) unstable; urgency=low
+
+  [ Carlos Guerrero ]
+  * [70f1046] Corrigiendo sistemas por sistema
+  * [69b6f6b] Nueva versión
+
+  [ Francisco Vasquez Guerrero ]
+  * [eed4c27] realizando modificaciones puntuales a los archivos del
+    mantenedor y aplicación
+  * [581795c] corregido error en el copyright encontrado por lintian
+  * [f176c6f] corregido error emitido por lintian en el copyright
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Thu, 28 Apr 2011 11:12:59 -0430
+
+canaima-notas (1.0+23) unstable; urgency=low
+
+  * [70f1046] Corrigiendo sistemas por sistema
+
+ -- Carlos Guerrero <guerrerocarlos@gmail.com>  Thu, 28 Apr 2011 09:09:48 -0430
+
+canaima-notas (1.0+22) unstable; urgency=low
+
+  [ Francisco Vasquez Guerrero ]
+  * [312a1cf] Corregidos ticket #27 #114 #116 #118 sobre el documentador
+    de fallas
+
+  [ Francisco Vasquez ]
+
+  [ Francisco Vasquez Guerrero ]
+  * [2ab08cd] prueba
+  * [e9f9633] ahora si
+  * [22bd8ad] corrigiendo ticket 250 de canaima notas
+
+ -- Francisco Vasquez Guerrero <fvasquez@cnti.gob.ve>  Mon, 25 Apr 2011 11:21:31 -0430
+
+canaima-notas (1.0+21) unstable; urgency=low
+
+  [ Francisco Vasquez Guerrero ]
+  * [f4c38c8] redireccionandocanaima notas al herramientas de sistemas
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Wed, 23 Mar 2011 15:52:48 -0430
+
+canaima-notas (1.0+20) unstable; urgency=low
+
+  [ Francisco Vasquez Guerrero ]
+  * [a818f95] editando el .desktop
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Wed, 23 Mar 2011 15:28:49 -0430
+
+canaima-notas (1.0+19) unstable; urgency=low
+
+  [ Francisco Vasquez Guerrero ]
+  * [8577a11] modificado el changelog
+  * [7bb1e13] corriegiendo bug
+  * [72b1823] corriendo error del trac y código
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Wed, 23 Mar 2011 10:47:56 -0430
+
+canaima-notas (1.0+18) unstable; urgency=low
+
+  [ root ]
+  * [bd45d38] modificando apariencia de canaima notas o documenteador de
+    fallas
+
+  [ Francisco Vasquez Guerrero ]
+  * [2e98708] editando imagende del catpcha
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Wed, 16 Mar 2011 13:56:18 -0430
+
+canaima-notas (1.0+17) unstable; urgency=low
+
+  [ Francisco Vasquez Guerrero ]
+  * [509c2ac] corrigiendo error de validación e imagen
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Tue, 15 Mar 2011 16:25:53 -0430
+
+canaima-notas (1.0+16) unstable; urgency=low
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [d2cec76] Cambiando imágenes locales a configuración global
+  * [8219601] Agregando dependencia a canaima-estilo-visual
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Tue, 15 Mar 2011 13:20:45 -0430
+
+canaima-notas (1.0+15) unstable; urgency=low
+
+  * [e2ca186] Cambiando ícono para el nuevo tema de Canaima 3.0
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 17 Dec 2010 11:50:27 -0430
+
+canaima-notas (1.0+14) unstable; urgency=low
+
+  * [b871c87] Corrigiendo errores de lintian
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 01 Dec 2010 19:10:17 -0430
+
+canaima-notas (1.0+13) unstable; urgency=low
+
+  * [81e97f1] Corrigiendo erroes arrojados por lintian
+  * [942e82d] Arreglando debian/copyright
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 01 Dec 2010 19:05:50 -0430
+
+canaima-notas (1.0+12) unstable; urgency=low
+
+  [ Francisco Vasquez ]
+  * [c9b19ea] agregando etiqueta de identificación de canaima notas
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [c053826] Agregando mejoras
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 01 Dec 2010 18:44:50 -0430
+
+canaima-notas (1.0+11) unstable; urgency=low
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [28e3401] Realizando cambios en la estructura de archivos
+  * [162fefc] Modificando string del Nombre
+  * [953788a] Corrigiendo Makefile, removiendo imagen no utilizada
+
+  [ Francisco Vasquez ]
+
+  [ Francisco Vasquez Guerrero ]
+  * [c33199c] creando la carpeta /usr/share/canaima-notas/
+
+  [ Francisco Vasquez ]
+
+  [ Francisco Vasquez Guerrero ]
+  * [9ba83ef] coregido espacion en el makefile
+
+  [ Francisco Vasquez ]
+
+  [ Francisco Vasquez Guerrero ]
+  * [05c856b] agregando el lanzador del documentador de fallas
+
+  [ Francisco Vasquez ]
+
+  [ Francisco Vasquez Guerrero ]
+  * [2222db4] corrigiendo error del makefile
+
+  [ Francisco Vasquez ]
+
+ -- Francisco Vasquez <fvasquez@fvasquez.cnti.gob.ve>  Tue, 15 Mar 2011 12:20:54 -0430
+
+canaima-notas (1.0+10) unstable; urgency=low
+
+  * [fb714ec] Agregando scripts del mantenedor
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 26 Nov 2010 17:50:18 -0430
+
+canaima-notas (1.0+9) unstable; urgency=low
+
+  * [943cab2] agregando consultan que no necesitan usuario root
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@cnti.gob.ve>  Mon, 11 Oct 2010 12:09:50 -0430
+
+canaima-notas (1.0+8) unstable; urgency=low
+
+  * [aa9ca07] incorporación de nuevo item de informacion
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@cnti.gob.ve>  Fri, 08 Oct 2010 10:26:24 -0430
+
+canaima-notas (1.0+7) unstable; urgency=low
+
+  [ Francisco Javier Vasquez Guerrero ]
+  * [881fc04] arreglando canaima-notas-bin
+  * [9f2f4de] corrigiendo el changelog
+  * [accd41d] commit de versionamiento
+
+  [ Francisco Vasquez ]
+  * [e9726e4] incluyendo nuevo iten de informcaion y mejora en el gui
+
+  [ Francisco Javier Vasquez Guerrero ]
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@cnti.gob.ve>  Fri, 08 Oct 2010 07:35:01 -0430
+
+canaima-notas (1.0+6) unstable; urgency=low
+
+  * [dfb6cd4] commit de versionamiento
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@cnti.gob.ve>  Tue, 28 Sep 2010 12:53:26 -0430
+
+canaima-notas (1.0+5) unstable; urgency=low
+
+  * [1bd7c96] commit de versionamiento
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@cnti.gob.ve>  Tue, 28 Sep 2010 12:43:05 -0430
+
+canaima-notas (1.0+4) unstable; urgency=low
+
+  * [e57b3bd] commit
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@canaima.softwarelibre.gob.ve>  Tue, 14 Sep 2010 10:32:49 -0430
+
+canaima-notas (1.0+3) unstable; urgency=low
+
+  * [485bfa9] nuevo commit
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@canaima.softwarelibre.gob.ve>  Tue, 14 Sep 2010 10:28:33 -0430
+
+canaima-notas (1.0-2) unstable; urgency=low
+
+  * [8b1e6cb] modificamos el control para realizar un nuevo tag
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@canaima.softwarelibre.gob.ve>  Mon, 13 Sep 2010 11:57:46 -0430
+
+canaima-notas (1.0-1) unstable; urgency=low
+
+  * Versión Inicial
+
+ -- Francisco Javier Vasquez Guerrero <fvasquez@cnti.gob.ve>  Tue, 31 Aug 2010 14:19:28 -0430
+

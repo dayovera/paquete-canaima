@@ -1,0 +1,237 @@
+# Spanish translations for canaima-notas-gnome package
+# Traducciones al español para el paquete canaima-notas-gnome.
+# Copyright (C) 2013 THE canaima-notas-gnome'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the canaima-notas-gnome package.
+# Carlos Espinoza <armikhael@armikhael.cnti.gob.ve>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: canaima-notas-gnome 4.0-3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-21 14:15-0430\n"
+"PO-Revision-Date: 2013-06-21 14:16-0430\n"
+"Last-Translator: Carlos Espinoza <armikhael@armikhael.cnti.gob.ve>\n"
+"Language-Team: Spanish\n"
+"Language: es_VE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: canaima_notas_gnome.py:58
+msgid "Documenting of Failures"
+msgstr "Documentador de Fallas"
+
+#: canaima_notas_gnome.py:74
+msgid "Title:"
+msgstr "Titulo:"
+
+#: canaima_notas_gnome.py:75
+msgid "Author:"
+msgstr "Autor:"
+
+#: canaima_notas_gnome.py:76
+msgid "Email:"
+msgstr "Correo:"
+
+#: canaima_notas_gnome.py:81
+msgid "email@example.com"
+msgstr "correo@ejemplo.com"
+
+#: canaima_notas_gnome.py:100
+msgid ""
+"\n"
+"\n"
+"\t\t\t\tWrite the problem happened on your computer"
+msgstr ""
+"\n"
+"\n"
+"\t\t\t\tEscriba el problema que ocurrió en su computador"
+
+#: canaima_notas_gnome.py:114
+msgid "Enter the details of the fault (be as specific as possible):"
+msgstr "Escriba los detalles de la falla (sea lo más específico posible):"
+
+#: canaima_notas_gnome.py:130
+msgid "Disk Space"
+msgstr "Espacio Discos"
+
+#: canaima_notas_gnome.py:134 canaima_notas_gnome.py:426
+msgid "Motherboard"
+msgstr "Tarjeta Madre"
+
+#: canaima_notas_gnome.py:136 canaima_notas_gnome.py:164
+#: canaima_notas_gnome.py:184
+msgid "Select All"
+msgstr "Seleccionar Todos"
+
+#: canaima_notas_gnome.py:152 canaima_notas_gnome.py:438
+msgid "Graphics Acceleration"
+msgstr "Aceleración Gráfica"
+
+#: canaima_notas_gnome.py:154
+msgid "Screen Server"
+msgstr "Servidor Pantalla"
+
+#: canaima_notas_gnome.py:156
+msgid "Repositories"
+msgstr "Repositorios"
+
+#: canaima_notas_gnome.py:158
+msgid "Partition table"
+msgstr "Tabla de partición"
+
+#: canaima_notas_gnome.py:160
+msgid "Priority APT"
+msgstr "Prioridad APT"
+
+#: canaima_notas_gnome.py:162
+msgid "Network Interfaces"
+msgstr "Interfaces de RED"
+
+#: canaima_notas_gnome.py:180
+msgid "Version"
+msgstr "Versión"
+
+#: canaima_notas_gnome.py:182
+msgid "Modules"
+msgstr "Módulos"
+
+#: canaima_notas_gnome.py:195
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: canaima_notas_gnome.py:197
+msgid "System Information"
+msgstr "Información del Sistema"
+
+#: canaima_notas_gnome.py:199
+msgid "Kernel"
+msgstr "Kernel"
+
+#: canaima_notas_gnome.py:202
+msgid "Select the data to be sent:"
+msgstr "Seleccione los datos a enviar:"
+
+#: canaima_notas_gnome.py:208
+msgid "See document (not send)."
+msgstr "Ver Documento (No enviar)."
+
+#: canaima_notas_gnome.py:213
+msgid "Write what you see in the picture:"
+msgstr "Escribe lo que ves en la imagen:"
+
+#: canaima_notas_gnome.py:335
+msgid ""
+"The sending of the note was successful...!\n"
+"\n"
+msgstr ""
+"El envio de la nota fue exitoso...!\n"
+"\n"
+
+#: canaima_notas_gnome.py:368
+msgid "- You need to enter a title."
+msgstr "- Es necesario que escriba un título."
+
+#: canaima_notas_gnome.py:372
+msgid "- You need to enter your name."
+msgstr "- Es necesario que escriba su nombre."
+
+#: canaima_notas_gnome.py:376
+msgid "- You need to enter your address email."
+msgstr "- Es necesario que escriba su dirección de correo electrónico."
+
+#: canaima_notas_gnome.py:381
+msgid "- Take a moment and describe the failure."
+msgstr "- Tómese unos instantes y describa la falla."
+
+#: canaima_notas_gnome.py:385
+msgid "- Select at least 1 option box Data to Send."
+msgstr "- Seleccione al menos 1 opción del cuadro de Datos a Enviar."
+
+#: canaima_notas_gnome.py:393
+msgid "- The value entered does not match that of the image."
+msgstr "- El valor introducido no coincide con el de la imágen."
+
+#: canaima_notas_gnome.py:397
+msgid "- It has an active internet connection. Select the Do not Send."
+msgstr "- No posee una conexión a internet activa. Seleccione la opción No Enviar."
+
+#: canaima_notas_gnome.py:420
+msgid "Devices connected by PCI"
+msgstr "Dispositivos conectados por PCI"
+
+#: canaima_notas_gnome.py:432
+msgid "Devices connected by USB port"
+msgstr "Dispositivos conectados por puerto USB"
+
+#: canaima_notas_gnome.py:444
+msgid "Information Network interfaces"
+msgstr "Información interfaces de RED"
+
+#: canaima_notas_gnome.py:450
+msgid "Information /etc/apt/preferences"
+msgstr "Información /etc/apt/preferences"
+
+#: canaima_notas_gnome.py:456
+msgid "RAM Memory, Swap, and Buffer (in MB)"
+msgstr "Memoria RAM, Swap, y Buffer (en MB)"
+
+#: canaima_notas_gnome.py:462
+msgid "Free space on storage devices:"
+msgstr "Espacio libre en los dispositivos de almacenamiento:"
+
+#: canaima_notas_gnome.py:468
+msgid "Partition Table"
+msgstr "Tabla de particiones"
+
+#: canaima_notas_gnome.py:474
+msgid "Information processor"
+msgstr "Información del procesador"
+
+#: canaima_notas_gnome.py:480
+msgid "Xorg error information"
+msgstr "Información de errores de Xorg"
+
+#: canaima_notas_gnome.py:486
+msgid "Information repositories"
+msgstr "Información de los repositorios"
+
+#: canaima_notas_gnome.py:492
+msgid "List of kernel modules"
+msgstr "Listado de los modulos del kernel"
+
+#: canaima_notas_gnome.py:498
+msgid "Kernel version"
+msgstr "Versión del Kernel"
+
+#: canaima_notas_gnome.py:506
+msgid ""
+"In closing, all procedures that is generating Documenting of Failures will "
+"be closed. \n"
+"\n"
+"\t Do you want to exit the application?"
+msgstr ""
+"Al cerrar, todos los procedimientos que esté generando el Documentador de "
+"Fallas serán cerrados.\n"
+"\n"
+"\t ¿Desea salir de la aplicación?"
+
+#: note.py:73
+#, python-format
+msgid "TITLE: %s"
+msgstr "TITULO: %s"
+
+#: note.py:74
+#, python-format
+msgid "AUTHOR: %s"
+msgstr "AUTOR: %s"
+
+#: note.py:76
+#, python-format
+msgid "EMAIL: %s"
+msgstr "CORREO: %s"
+
+#: note.py:79
+msgid "_____________________ NOTE TO USER ____________________"
+msgstr "_____________________ NOTA DE USUARIO ____________________"

@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-21 14:15-0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: canaima_notas_gnome.py:58
+msgid "Documenting of Failures"
+msgstr ""
+
+#: canaima_notas_gnome.py:74
+msgid "Title:"
+msgstr ""
+
+#: canaima_notas_gnome.py:75
+msgid "Author:"
+msgstr ""
+
+#: canaima_notas_gnome.py:76
+msgid "Email:"
+msgstr ""
+
+#: canaima_notas_gnome.py:81
+msgid "email@example.com"
+msgstr ""
+
+#: canaima_notas_gnome.py:100
+msgid ""
+"\n"
+"\n"
+"\t\t\t\tWrite the problem happened on your computer"
+msgstr ""
+
+#: canaima_notas_gnome.py:114
+msgid "Enter the details of the fault (be as specific as possible):"
+msgstr ""
+
+#: canaima_notas_gnome.py:130
+msgid "Disk Space"
+msgstr ""
+
+#: canaima_notas_gnome.py:134 canaima_notas_gnome.py:426
+msgid "Motherboard"
+msgstr ""
+
+#: canaima_notas_gnome.py:136 canaima_notas_gnome.py:164
+#: canaima_notas_gnome.py:184
+msgid "Select All"
+msgstr ""
+
+#: canaima_notas_gnome.py:152 canaima_notas_gnome.py:438
+msgid "Graphics Acceleration"
+msgstr ""
+
+#: canaima_notas_gnome.py:154
+msgid "Screen Server"
+msgstr ""
+
+#: canaima_notas_gnome.py:156
+msgid "Repositories"
+msgstr ""
+
+#: canaima_notas_gnome.py:158
+msgid "Partition table"
+msgstr ""
+
+#: canaima_notas_gnome.py:160
+msgid "Priority APT"
+msgstr ""
+
+#: canaima_notas_gnome.py:162
+msgid "Network Interfaces"
+msgstr ""
+
+#: canaima_notas_gnome.py:180
+msgid "Version"
+msgstr ""
+
+#: canaima_notas_gnome.py:182
+msgid "Modules"
+msgstr ""
+
+#: canaima_notas_gnome.py:195
+msgid "Devices"
+msgstr ""
+
+#: canaima_notas_gnome.py:197
+msgid "System Information"
+msgstr ""
+
+#: canaima_notas_gnome.py:199
+msgid "Kernel"
+msgstr ""
+
+#: canaima_notas_gnome.py:202
+msgid "Select the data to be sent:"
+msgstr ""
+
+#: canaima_notas_gnome.py:208
+msgid "See document (not send)."
+msgstr ""
+
+#: canaima_notas_gnome.py:213
+msgid "Write what you see in the picture:"
+msgstr ""
+
+#: canaima_notas_gnome.py:335
+msgid ""
+"The sending of the note was successful...!\n"
+"\n"
+msgstr ""
+
+#: canaima_notas_gnome.py:368
+msgid "- You need to enter a title."
+msgstr ""
+
+#: canaima_notas_gnome.py:372
+msgid "- You need to enter your name."
+msgstr ""
+
+#: canaima_notas_gnome.py:376
+msgid "- You need to enter your address email."
+msgstr ""
+
+#: canaima_notas_gnome.py:381
+msgid "- Take a moment and describe the failure."
+msgstr ""
+
+#: canaima_notas_gnome.py:385
+msgid "- Select at least 1 option box Data to Send."
+msgstr ""
+
+#: canaima_notas_gnome.py:393
+msgid "- The value entered does not match that of the image."
+msgstr ""
+
+#: canaima_notas_gnome.py:397
+msgid "- It has an active internet connection. Select the Do not Send."
+msgstr ""
+
+#: canaima_notas_gnome.py:420
+msgid "Devices connected by PCI"
+msgstr ""
+
+#: canaima_notas_gnome.py:432
+msgid "Devices connected by USB port"
+msgstr ""
+
+#: canaima_notas_gnome.py:444
+msgid "Information Network interfaces"
+msgstr ""
+
+#: canaima_notas_gnome.py:450
+msgid "Information /etc/apt/preferences"
+msgstr ""
+
+#: canaima_notas_gnome.py:456
+msgid "RAM Memory, Swap, and Buffer (in MB)"
+msgstr ""
+
+#: canaima_notas_gnome.py:462
+msgid "Free space on storage devices:"
+msgstr ""
+
+#: canaima_notas_gnome.py:468
+msgid "Partition Table"
+msgstr ""
+
+#: canaima_notas_gnome.py:474
+msgid "Information processor"
+msgstr ""
+
+#: canaima_notas_gnome.py:480
+msgid "Xorg error information"
+msgstr ""
+
+#: canaima_notas_gnome.py:486
+msgid "Information repositories"
+msgstr ""
+
+#: canaima_notas_gnome.py:492
+msgid "List of kernel modules"
+msgstr ""
+
+#: canaima_notas_gnome.py:498
+msgid "Kernel version"
+msgstr ""
+
+#: canaima_notas_gnome.py:506
+msgid ""
+"In closing, all procedures that is generating Documenting of Failures will "
+"be closed. \n"
+"\n"
+"\t Do you want to exit the application?"
+msgstr ""
+
+#: note.py:73
+#, python-format
+msgid "TITLE: %s"
+msgstr ""
+
+#: note.py:74
+#, python-format
+msgid "AUTHOR: %s"
+msgstr ""
+
+#: note.py:76
+#, python-format
+msgid "EMAIL: %s"
+msgstr ""
+
+#: note.py:79
+msgid "_____________________ NOTE TO USER ____________________"
+msgstr ""

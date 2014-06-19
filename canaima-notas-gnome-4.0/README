@@ -1,0 +1,23 @@
+canaima-notas-gnome ó Documentador de Fallas
+
+== Descripción ==
+Canaima es un cliente de la plataforma de notas http://notas.canaima.softwarelibre.gob.ve tiene como función documentar fallas del sistema o crear algun comentario sobre ella.
+
+Se copia todo el contenido de las carpetas canaima notas:
+
+en ella existe los archivos que conforman canaima-notas-gnome
+valores principales como son:
+
+	scripts=
+	canaima-notas-gnome.py
+
+	Lanzador=
+	canaima-notas-gnome
+	Imagenes
+
+
+== Instalación ==
+
+Para instalarlo basta con ejecutar en una consola con permisos de root:
+
+	make install
